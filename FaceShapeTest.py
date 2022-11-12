@@ -171,7 +171,7 @@ while True:
         break
     elif k % 256 == 32:
 
-        img_name = "C:/Users/SinfulExiled/PycharmProjects/OpenCvTryOn/CapturedImages/opencv_frame_{}.jpg".format(
+        img_name = "D:/CapturedImages/opencv_frame_{}.jpg".format(
             img_counter)
         cv2.imwrite(img_name, NoFilter)
         print("{} written!".format(img_name))
